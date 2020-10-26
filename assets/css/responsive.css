@@ -1,0 +1,270 @@
+@media all and (min-width: 992px){
+	  
+}
+
+@media all and (max-width: 991px){
+
+.logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo a i {
+	font-size: 2.5rem;
+	color: #fff;
+	padding: 1rem 1rem;
+	border: 2px solid #fff;
+	border-radius: 3px;
+}
+
+.menu-icon{
+	display: block;
+}
+
+
+.menu{
+	display: none;
+}
+
+.menu {
+	position: absolute;
+	top: 99px;
+	left: 0px;
+	background: rgb(0,0,0,.5);
+	width: 50%;
+	margin: 0 auto;
+	right: 0px;
+} 
+
+.menu ul{
+	text-align: center;
+}
+
+.menu ul li a {
+	margin-top: 1rem;
+}
+
+.web-mobile-content h1, 
+.promotional-video-description h1 {
+	font-size: 3rem;
+ 
+}
+
+.web-mobile-content h2,
+.promotional-video-description h2 {
+	margin-bottom: .5rem;
+	font-size: 2rem;
+}
+
+.web-mobile-content h3,
+.promotional-video-description h3 {
+	font-size: 2rem;
+	margin-bottom: .5rem;
+}
+
+.web-mobile-content a,
+.promotional-video-description a {
+	font-size: 2rem;
+	padding: 1rem 2rem;
+	margin-top: 1rem;	 
+}
+
+.promotional-video-area {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.qoute-icon {
+	margin-top: 3rem;
+}
+
+.qoute-icon i {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.qoute-content h1 {
+	font-size: 2.5rem;
+	width: 100%;
+}
+
+.profile-picture {
+	width: 180px;
+	height: 180px;
+}
+
+.profile-content {
+	margin-left: 1rem;
+	margin-top: 2rem;
+}
+
+.profile-content > h1 {
+font-size: 2.5rem;
+}
+
+.profile-content > h2 {
+	font-size: 2rem;
+}
+
+.qoute-profile{
+	width: 63%;
+}
+
+.mobile-desciption h1 {
+	font-size: 3rem;
+}
+
+.mobile-desciption h2{
+	font-size: 2rem;
+	margin:.5rem 0;
+}
+
+.mobile-desciption p {
+font-size: 2rem;
+margin-bottom: 3rem;
+}
+.mobile-desciption-icon ul li span{ 
+	font-size: 2rem;
+}
+
+.mobile-description-area h3 {
+	font-size: 2rem;
+}
+
+.mobile-description-area a {
+	font-size: 2rem;
+	padding: 1rem 2rem;
+	margin: 1rem 0;
+}
+
+.pricing-content {
+    margin: 3rem auto;
+    max-width: 60%;
+
+}
+
+@media all and (max-width: 767px){
+	.menu ul{
+		flex-direction: column;
+	}
+
+	.pricing-content {
+	    margin: 3rem auto;
+	    max-width: 100%;
+
+	}
+
+	.overly-border {
+		margin: 13px auto;
+		width: 83%;
+	}
+	 
+}
+
+
+@media all and (max-width: 575px){
+
+.banner-carousel{
+	flex-direction: column;
+}
+.top-image {
+	max-width: 158px;
+	margin-left: 1rem;
+	margin-top: 100px;
+}
+
+.top-content {
+	margin-top: 10px;
+	z-index: 11;
+}
+
+.top-content h1 {
+	font-size: 3rem;
+}
+
+.top-content h3 {
+    font-size: 2rem;
+}    
+
+ 	.web-mobile-content a,
+ 	.promotional-video-description a {
+		font-size: 2rem;
+		padding: 1rem 2rem;
+		margin-top: .5rem;
+	}
+
+	.promotional-video-description {
+		margin-bottom: 1rem;
+	}
+
+	.promotional-video iframe {
+		width: 50%;
+		height: 100%;
+	}
+
+	.qoute-content h1 {
+		font-size: 2rem;
+		 
+	}
+
+	.profile-content > h1 {
+		font-size: 2rem;
+	}
+
+	.profile-content > h2 {
+		font-size: 1.8rem;
+	}
+
+	.client-single-logo {
+		margin: 0 auto;
+	}
+
+	.web-mobile-content {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.promotional-video-description {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 1rem;
+	}
+
+	.promotional-video {
+    	text-align: center;
+	}
+
+	.mobile-desciption {
+	    width: 80%;
+	    margin: 0 auto;
+	    margin-top: 3rem;
+	}
+
+	.mobile-desciption-icon {
+		width: 80%;
+		margin: 3rem auto;
+	}
+
+	.mobile-description-image {
+		width: 80%;
+		margin: 2rem auto;
+	}
+
+	.footer-icon {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 3rem;
+	}
+	
+	.copy-right {
+	 
+	width: 80%;
+	margin: 2rem auto;
+	display: flex;
+	justify-content: start;
+	}
+}
+
+
+ 
