@@ -113,7 +113,7 @@ p {
 	margin-left: 1rem;
 }
 
-.right-side ul li:last-child span {
+.last-child{
 	width: 2rem;
 	display: inline-block;
 	height: 2rem;
@@ -173,7 +173,7 @@ p {
 	background: #1f2637;
 	position: fixed;
 	width: 25%;
-	top: 88px;
+	top: 92px;
 	left: 0;
 	right: 0;
 	bottom: 54px;
@@ -183,7 +183,7 @@ p {
 
 .right-content-slidebar {
 	position: fixed;
-	top: 88px;
+	top: 92px;
 	right: 0px;
 	left: 342px;
 	bottom: 70px;
@@ -413,6 +413,7 @@ p {
 
 .single-item {
 	display: inline-block;
+	margin-bottom: 1rem;
 }
 
 .filter-blog {
@@ -423,12 +424,12 @@ p {
 }
 
 .filter-img {
-	width: auto;
+	width: 100%;
 	height: auto;
 }
 
 .filter-img img{
-	width: auto;
+	width: 100%;
 	height: auto;
 	object-fit: cover;
 }
