@@ -49,17 +49,19 @@
 			</ul>
 		</div>
 		<div class="middle-side">
-			<ul>
-				<li><a href="#"><i class="fas fa-book"></i>MyBookApp</a></li>
-			</ul>
+			<div class="middle-center">
+				<ul>
+					<li><a href="#"><i class="fas fa-book"></i>MyBookApp</a></li>
+				</ul>
+			</div>
 		</div>
 		<div class="right-side">
 			<ul class="d-flex align-items-center justify-content-end">
 				<li><a href="#">Help Center</a></li>
 				<li><a href="#">Our Support</a></li>
-				<li><span><img src="assets/img/profile.png"></span>John Doe
+				<li><a href="#"><span><img src="assets/img/profile.png"></span>John Doe
 					<span class="last-child"><i class="fas fa-chevron-down">	
-					</i></span>
+					</i></span></a>
 					<ul>
 						<li>Profile</li>
 						<li>logout</li>
@@ -75,11 +77,14 @@
 <section class="app-content-section">
 	<div class="main-content-section">
 		<div class="row">
-			<div class="col-md-2">
+			<div class="col-lg-3 d-lg-block">
 				<div class="left-content-slidebar">
 					<!-- Add book subsection -->
 					<div class="add-book">
 						<p><a href="#" class="add-book-button"><i class="fas fa-plus"></i>add a book</a></p>
+						<div class="navbar-hide-show-button">
+							<a href="#" class="navbar-hide-show"><i class="fas fa-times"></i></a>
+						</div>
 					</div>
 					<!-- Add Main nav subsection -->
 					<div class="main-nav">
@@ -106,30 +111,39 @@
 					<!-- history subsection -->
 					<div class="history">
 						<ul class="d-flex">
-							<li><i class="fas fa-clock"></i><span>You added Fight Club by Chuck Palahniuk to your Must Read Titles. <p>24 minutes ago</p></span></li>
+							<li><i class="fas fa-clock"></i><span><a href="#">You added Fight Club by Chuck Palahniuk to your Must Read Titles. <p>24 minutes ago</p></a></span></li>
+							<li><i class="fas fa-clock"></i><span><a href="#">You added Fight Club by Chuck Palahniuk to your Must Read Titles. <p>24 minutes ago</p></a></span></li>
+							<li><i class="fas fa-clock"></i><span><a href="#">You added Fight Club by Chuck Palahniuk to your Must Read Titles. <p>24 minutes ago</p></a></span></li>
 
-							<li><i class="fas fa-clock"></i><span>You added The Trial by Franz Kafka to your Must Read Titles. <p>48 minutes ago</p></span></li>
-
-							<li><i class="fas fa-clock"></i><span>You added The Trial by Franz Kafka to your Must Read Titles. <p>48 minutes ago</p></span></li>
-
+							 
 
 						</ul>
 					</div>
 				</div>
 			</div>
 			<!-- Filter and result -->
-			<div class="col-md-10">
+			<div class="col-lg-9 col-md-12">
 				<div class="right-content-slidebar">
 					<div class="filter-and-result">
-					<div class="header-title">
-						<h1>Browse Available Books</h1>
-					</div>
+						<div class="header-title-area">
+							<div class="header-title">
+								<h1>Browse Available Books</h1>
+
+							</div>
+							<div class="header-menu-area">
+								<a href="#" class="menu-icon">
+									<i class="fas fa-bars"></i>
+								</a>
+								
+							</div>
+						</div>	
+
 					<!-- Filter and search panel -->
 					<div class="filter-search">
 						<div class="menu-area d-flex justify-content-between align-items-center">
 							<div class="menu">
 								<ul class="d-flex justify-content-between align-items-center">
-									<li data-filter="all">All Books</li>
+									<li class="active" data-filter="all">All Books</li>
 									<li data-filter=".most-recent">Most Recent</li>
 									<li data-filter=".most-popular">Most Popular</li>
 									<li data-filter=".free-book">Free Books</li>
@@ -139,256 +153,189 @@
 								<div class="search">
 									<form action="">
 										<input type="search" placeholder="Enter Keywords" name="">
-										<button type="submit"><i class="fas fa-search"></i> </button>
+										<button type="submit"><i class="fas fa-search"></i></button>
+										<!-- search-close button -->
+										<div class="search-close">
+											<a href="#"><i class="fas fa-times"></i></a>
+										</div>
+
 									</form> 
 								</div>
-								 
+							</div>
+							<!-- hide icon search -->
+							<div class="search-icon">
+								<a href="" class="search-button"><i class="fas fa-search"></i></a>
+							</div>
+							<div class="search-icon-popup">
+								<a href="#test-popup" class="popup-button"><i class="fas fa-search"></i></a>
 							</div>
 						</div>
 					</div>
 					</div>
 					<!-- Blog filters  -->
 					<div class="filter-blog">
-					<div class="single-item mix most-recent">
-						<div class="filter-img">
-							<img src="assets/img/blog/1.jpg">
+						<div class="new-class">
+							<div class="single-item mix most-recent">
+								<div class="filter-img">
+									<img src="assets/img/blog/1.jpg">
+								</div>
+								<div class="filter-content">
+								<h1>Jewels of Nizam</h1>
+								<h2>by Geeta Devi</h2>
+								<ul class="d-flex align-items-center">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+								</ul>
+								</div>
+							</div>
+							<div class="single-item mix most-popular">
+								<div class="filter-img">
+									<img src="assets/img/blog/2.jpg">
+								</div>
+								<div class="filter-content">
+								<h1>Jewels of Nizam</h1>
+								<h2>by Geeta Devi</h2>
+								<ul class="d-flex align-items-center">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+								</ul>
+								</div>
+							</div>
+							<div class="single-item mix free-book">
+								<div class="filter-img">
+									<img src="assets/img/blog/3.jpg">
+								</div>
+								<div class="filter-content">
+								<h1>Jewels of Nizam</h1>
+								<h2>by Geeta Devi</h2>
+								<ul class="d-flex align-items-center">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+								</ul>
+								</div>
+							</div>
+							<div class="single-item mix free-book">
+								<div class="filter-img">
+									<img src="assets/img/blog/4.jpg">
+								</div>
+								<div class="filter-content">
+								<h1>Jewels of Nizam</h1>
+								<h2>by Geeta Devi</h2>
+								<ul class="d-flex align-items-center">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+								</ul>
+								</div>
+							</div>
+							<div class="single-item mix most-popular">
+								<div class="filter-img">
+									<img src="assets/img/blog/5.jpg">
+								</div>
+								<div class="filter-content">
+								<h1>Jewels of Nizam</h1>
+								<h2>by Geeta Devi</h2>
+								<ul class="d-flex align-items-center">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+								</ul>
+								</div>
+							</div>
+							<div class="single-item mix most-popular">
+								<div class="filter-img">
+									<img src="assets/img/blog/6.jpg">
+								</div>
+								<div class="filter-content">
+								<h1>Jewels of Nizam</h1>
+								<h2>by Geeta Devi</h2>
+								<ul class="d-flex align-items-center">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+								</ul>
+								</div>
+							</div>
+							<div class="single-item mix free-book">
+								<div class="filter-img">
+									<img src="assets/img/blog/7.jpg">
+								</div>
+								<div class="filter-content">
+								<h1>Jewels of Nizam</h1>
+								<h2>by Geeta Devi</h2>
+								<ul class="d-flex align-items-center">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+								</ul>
+								</div>
+							</div>
+							<div class="single-item mix most-recent">
+								<div class="filter-img">
+									<img src="assets/img/blog/8.jpg">
+								</div>
+								<div class="filter-content">
+								<h1>Jewels of Nizam</h1>
+								<h2>by Geeta Devi</h2>
+								<ul class="d-flex align-items-center">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+								</ul>
+								</div>
+							</div>
+							<div class="single-item mix most-popular">
+								<div class="filter-img">
+									<img src="assets/img/blog/9.jpg">
+								</div>
+								<div class="filter-content">
+								<h1>Jewels of Nizam</h1>
+								<h2>by Geeta Devi</h2>
+								<ul class="d-flex align-items-center">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+								</ul>
+								</div>
+							</div>
+							<div class="single-item mix most-recent">
+								<div class="filter-img">
+									<img src="assets/img/blog/10.jpg">
+								</div>
+								<div class="filter-content">
+								<h1>Jewels of Nizam</h1>
+								<h2>by Geeta Devi</h2>
+								<ul class="d-flex align-items-center">
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+									<li><i class="fas fa-star"></i></li>
+								</ul>
+								</div>
+							</div>
 						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix most-popular">
-						<div class="filter-img">
-							<img src="assets/img/blog/2.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix free-book">
-						<div class="filter-img">
-							<img src="assets/img/blog/3.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix free-book">
-						<div class="filter-img">
-							<img src="assets/img/blog/4.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix most-popular">
-						<div class="filter-img">
-							<img src="assets/img/blog/5.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix most-popular">
-						<div class="filter-img">
-							<img src="assets/img/blog/6.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix free-book">
-						<div class="filter-img">
-							<img src="assets/img/blog/7.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix most-recent">
-						<div class="filter-img">
-							<img src="assets/img/blog/8.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix most-popular">
-						<div class="filter-img">
-							<img src="assets/img/blog/9.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix most-recent">
-						<div class="filter-img">
-							<img src="assets/img/blog/10.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix most-popular">
-						<div class="filter-img">
-							<img src="assets/img/blog/6.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix free-book">
-						<div class="filter-img">
-							<img src="assets/img/blog/7.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix most-recent">
-						<div class="filter-img">
-							<img src="assets/img/blog/8.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix most-popular">
-						<div class="filter-img">
-							<img src="assets/img/blog/9.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
-					<div class="single-item mix most-recent">
-						<div class="filter-img">
-							<img src="assets/img/blog/10.jpg">
-						</div>
-						<div class="filter-content">
-						<h1>Jewels of Nizam</h1>
-						<h2>by Geeta Devi</h2>
-						<ul class="d-flex align-items-center">
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-							<li><i class="fas fa-star"></i></li>
-						</ul>
-						</div>
-					</div>
 					</div>
 				</div>
 			</div>
@@ -407,13 +354,24 @@
 	</div>
 </section>
 <!-- End Footer section -->
+
+<!-- search-popup -->
+<div id="test-popup" class="white-popup mfp-hide">
+	<div class="popup-search-bar">
+		<div class="popup-search">
+			<form action="">
+				<input type="search" placeholder="Enter Keywords" name="">
+				<button type="submit"><i class="fas fa-search"></i></button>
+				<!-- search-close button -->
+			</form> 
+		</div>
+	</div>
+</div>
 	<!-- JS FILES -->
   	<script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery-asPieProgress.min.js"></script>
     <script src="assets/js/mixitup.min.js"></script>
     <script src="assets/js/scripts.js"></script>
 </body>
