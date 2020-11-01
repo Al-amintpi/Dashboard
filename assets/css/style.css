@@ -734,7 +734,7 @@ button:focus{
 }
 
 .footer-section h1{
-	display: none;
+	display: none !important;
 }
 
 .mfp-close-btn-in .mfp-close {
