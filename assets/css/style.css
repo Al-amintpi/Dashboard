@@ -81,6 +81,7 @@ html{
 body{
 	overflow-x: hidden;
 	margin: 0;
+	font-size: 14px;
 	font-size: 1.4rem;
 	font-weight: 400;
 	font-family: 'Proxima';
@@ -101,6 +102,7 @@ a{
 }
 
 h1{
+	font-size: 20px;
 	font-size: 2rem;
 	font-weight: 400;
 	color:#FFF;
@@ -108,12 +110,14 @@ h1{
 
 
 h2{
+	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: 400;
 	color:#FFF;
 }
 
 p {
+	font-size: 14px;
 	font-size: 1.4rem;
 	color:#FFF;
 	margin: 0;
@@ -160,15 +164,19 @@ button:focus{
 
 
 .left-side {
+	padding-left: 20px;
 	padding-left: 2rem;
 }
 
 .left-side ul li span {
+	width: 13px;
 	width: 1.3rem;
+	height: 13px;
 	height: 1.3rem;
 	background: red;
 	display: block;
 	border-radius: 50%;
+	margin-right: 5px;
 	margin-right: .5rem;
 }
 
@@ -176,9 +184,6 @@ button:focus{
 	margin-right: 0px;
 }
 
-.left-side ul li span:last-child{
-	margin-right: none;
-}
 
 .left-side ul li:nth-child(1) span{
 	background: #e76847;
@@ -203,20 +208,24 @@ button:focus{
 }
 
 .middle-side ul li a i {
+	margin-right: 10px;
 	margin-right: 1rem;
 }
 
 .right-side ul li a {
 	font-size: 17px;
 	color: #69738c;
+	margin-right: 10px;
 	margin-right: 1rem;
 }
 
 .right-side ul li:first-child a{
+	margin-right: 35px;
 	margin-right: 3.5rem;
 }
 
 .right-side ul li:nth-child(2) a{
+	margin-right: 15px;
 	margin-right: 1.5rem;
 }
 
@@ -231,7 +240,9 @@ button:focus{
 
 .right-side ul li:nth-child(3) {
 	background: #15a4fa;
+	padding: 18px 0;
 	padding: 1.8rem 0;
+	font-size: 18px;
 	font-size: 1.8rem;
 	color: #ffffff;
 }
@@ -246,19 +257,24 @@ button:focus{
 }
 
 .right-side ul li span {
+	margin-right: 10px;
 	margin-right: 1rem;
+	margin-left: 10px;
 	margin-left: 1rem;
 }
 
 .last-child{
+	width: 20px;
 	width: 2rem;
 	display: inline-block;
+	height: 20px;
 	height: 2rem;
 	background: #ffffff;
 	border-radius: 50%;
 	text-align: center;
 	color: #15a4fa;
 	line-height: 0px;
+	margin-right: 20px;
 	margin-right: 2rem;
 }
 
@@ -273,11 +289,14 @@ button:focus{
 
 .right-side ul ul li {
 	text-align: center;
+	font-size: 18px;
 	font-size: 1.8rem;
 	color: #78829d;
 	cursor: pointer;
+	padding: 10px 10px;
 	padding: 1rem 1rem;
 	border-radius: 200px;
+	margin: 10px 0;
 	margin: 1rem 0;
 
 }
@@ -315,6 +334,7 @@ button:focus{
 }
  
 .add-book-button {
+	padding: 10px 30px;
 	padding: 1rem 3rem;
 	background: #f2795a;
 	text-transform: uppercase;
@@ -322,7 +342,9 @@ button:focus{
 	font-weight: 700;
 	color: #ffffff;
 	border-radius: 5px;
+	margin: 20px 0;
 	margin: 2rem 0;
+	margin-left: 40px;
 	margin-left: 4rem;
 }
 
@@ -332,6 +354,7 @@ button:focus{
 }
 
 .add-book-button i {
+	margin-right: 15px;
 	margin-right: 1.5rem;
 }
 
@@ -345,18 +368,24 @@ button:focus{
 
 /*main nav*/
 .main-nav {
+	padding: 10px 0;
 	padding: 1rem 0;
 	border-bottom: 5px solid #19202e;
 }
 
 .main-nav ul {
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 .main-nav ul li a {
 	color: #78829d;
+	font-size: 17px;
 	font-size: 1.7rem;
 	display: block;
+	padding: 8px 40px;
 	padding: .8rem 4rem;
 	font-weight: 400;
 }
@@ -366,26 +395,33 @@ button:focus{
 	color:#ffffff;
 }
 
-.main-nav ul li a:hover: i{
+.main-nav ul li a:hover i{
 	color:#ffffff; 
 }
 
 .main-nav ul li a i {
+	margin-right: 10px;
 	margin-right: 1rem;
 }
 
 /*personal cateogories css sub*/
 .personal-category {
+	padding: 10px 0;
 	padding: 1rem 0;
 	border-bottom: 5px solid #19202e;
 }
 
 .personal-category ul{
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 .personal-category ul li a {
+	font-size: 17px;
 	font-size: 1.7rem;
+	margin: 6px 0;
 	margin: .6rem 0;
 	color: #78829d;
 	font-weight: 400;
@@ -396,12 +432,16 @@ button:focus{
 }
 
 .personal-category ul li a span {
+	width: 10px;
 	width: 1rem;
+	height: 10px;
 	height: 1rem;
 	display: inline-block;
 	background: red;
 	border-radius: 50%;
+	margin-right: 10px;
 	margin-right: 1rem;
+	margin-left: 40px;
 	margin-left: 4rem;
 }
 
@@ -421,31 +461,39 @@ button:focus{
 	background: #7874cf;
 }
 
-.personal-category ul li a:nth-child() span{
-	background: #ffab00;
-}
-
+ 
 /*history css*/
 
 .history {
+	padding: 20px 0;
 	padding: 2rem 0;
 }
 
 .history ul{
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 
 .history ul li {
 	color: #677b92;
+	font-size: 16px;
 	font-size: 1.6rem;
+	margin-bottom: 10px;
 	margin-bottom: 1rem;
+	margin-left: 40px;
 	margin-left: 4rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
 .history ul li i {
 	display: inline-block;
-	flex: 0 0 24px;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 24px;
+	        flex: 0 0 24px;
 	line-height: 27px;
 }
 
@@ -457,7 +505,7 @@ button:focus{
 	color:#fff;
 }
 
-.history ul li span p {
+.history ul li span span {
 	color: #545d74;
 }
 
@@ -465,6 +513,7 @@ button:focus{
 
 .row{
 	margin: 0;
+	--bs-gutter-x: 0px;
 	--bs-gutter-x: 0rem;
 }
 
@@ -475,6 +524,7 @@ button:focus{
 
 
 .header-title {
+	padding: 15px 0;
 	padding: 1.5rem 0;
 	border-bottom: 1px solid #dadfea;
 }
@@ -484,6 +534,7 @@ button:focus{
 }
 .header-title h1 {
 	color: #5b6277;
+	margin-left: 5px;
 	margin-left: .5rem;
 	font-weight: 400;
 }
@@ -491,6 +542,7 @@ button:focus{
 .filter-search{}
 
 .menu-area {
+	padding: 5px 5px;
 	padding: .5rem .5rem;
 }
 
@@ -499,11 +551,15 @@ button:focus{
 .menu menu ul {}
 
 .menu ul li {
+	padding: 5px 15px;
 	padding: .5rem 1.5rem;
+	font-size: 16px;
 	font-size: 1.6rem;
 	color: #97b3ce;
+	-webkit-transition: .5s;
 	transition: .5s;
 	cursor: pointer;
+	margin-right: 10px;
 	margin-right: 1rem;
 }
 
@@ -520,22 +576,27 @@ button:focus{
 }
 
 .search-bar {
+	width: 380px;
 	width: 38rem;
 }
 
-.search input[type="search"]{
+.search input[type="search"],
+.popup-search input[type="search"]{
 	width: 100%;
+	padding: 6px 13px;
 	padding: .6rem 1.3rem;
 	box-sizing: border-box;
 	border: 1px solid #cdd2df;
 	border-radius: 27px;
 	background: #fff;
 	color: #b3bbcd;
+	font-size: 18px;
 	font-size: 1.8rem;
 	outline: none;
 }
 
-.search{
+.search,
+.popup-search{
 	position: relative;
 }
 
@@ -543,12 +604,14 @@ button:focus{
 	display: none;
 }
 
-.search button{
+.search button,
+.popup-search button{
 	position: absolute;
 	top: 8px;
 	right: 9px;
 	background: transparent;
 	border: none;
+	font-size: 18px;
 	font-size: 1.8rem;
 	color: #b2bacc;
 	 
@@ -561,6 +624,7 @@ button:focus{
 
 .single-item {
 	display: inline-block;
+	margin-bottom: 10px;
 	margin-bottom: 1rem;
 }
 
@@ -574,7 +638,8 @@ button:focus{
 .filter-img img{
 	width: 100%;
 	height: auto;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 
  
@@ -583,10 +648,12 @@ button:focus{
 
 .filter-content h1 {
 	color: #50586d;
+	margin-top: 10px;
 	margin-top: 1rem;
 }
 
 .filter-content h2{
+	margin-top: 5px;
 	margin-top:.5rem;
 	color:#50586d;
 }
@@ -607,17 +674,21 @@ button:focus{
 .footer-content {}
 
 .footer-content ul li a {
+	font-size: 20px;
 	font-size: 2rem;
 	color: #ffffff;
+	padding: 30px 20px;
 	padding: 3rem 2rem;
 }
 
 .footer-content ul li:first-child a{
+	padding: 10px 10px;
 	padding:1rem 1rem;
 	background:#1f2637;
 }
 
 .footer-content ul li:last-child a{
+	padding: 10px 10px;
 	padding:1rem 1rem;
 	background: #15a4fa;
 }
@@ -633,14 +704,18 @@ button:focus{
 }
 
 .filter-blog {
+	margin-left: 20px;
 	margin-left: 2rem;
+	margin-top: 20px;
 	margin-top: 2rem; 
 	overflow: scroll;
 	height: calc(100vh - 251px); 
 	overflow-x: hidden;
 }
 .new-class {
-	column-count: 5;
+	-webkit-column-count: 5;
+	   -moz-column-count: 5;
+	        column-count: 5;
 	
 }
 
@@ -657,3 +732,28 @@ button:focus{
 	background: #97b3ce;
 	color:#fff;
 }
+
+.footer-section h1{
+	display: none;
+}
+
+.mfp-close-btn-in .mfp-close {
+	display: none !important;
+}
+
+.popup-search {
+	position: relative;
+}
+
+.popup-search i:hover{
+	color:#2f364a;
+}
+
+ 
+
+.popup-search-bar {
+	width: 30rem;
+	margin: 0 auto;
+}
+
+
